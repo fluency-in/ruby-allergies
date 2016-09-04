@@ -1,4 +1,4 @@
-# Allergies
+# Ruby: Allergies
 
 Write a program that, given a person's allergy score, can tell them whether or not they're allergic to a given item, and their full list of allergies.
 
@@ -24,6 +24,20 @@ Now, given just that score of 34, your program should be able to say:
 - Whether Tom is allergic to any one of those allergens listed above.
 - All the allergens Tom is allergic to.
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby allergies_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 Jumpstart Lab Warm-up [http://jumpstartlab.com](http://jumpstartlab.com)
@@ -32,3 +46,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
